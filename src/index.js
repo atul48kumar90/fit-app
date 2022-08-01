@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 
 import App from './App';
 
-const Root = ReactDom.createRoot(document.getElementById('root'));
+const Root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(
-    <App />
-)
+root.render(<App />);
+
+
